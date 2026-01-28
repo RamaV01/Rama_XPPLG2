@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lensa Kreatif | Studio Fotografi & Videografi</title>
-    <style>
+<!doctype html>
+<html lang="id"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Lensa Kreatif | Studio Fotografi &amp; Videografi</title> 
+  <style>
         /* CSS Internal untuk Layout & Responsive */
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -28,6 +28,143 @@
         nav ul li {
             display: inline;
             margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+
+        section {
+            padding: 20px 0;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 8px;
+            margin: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+
+        /* Responsivitas sederhana */
+        @media (max-width: 600px) {
+            nav ul li {
+                display: block;
+                margin-bottom: 10px;
+            }
+        }
+    </style> 
+ </head> 
+ <body> 
+  <header id="home"> 
+   <h1>Lensa Kreatif Studio</h1> 
+   <nav> 
+    <ul> 
+     <li><a href="#about">Tentang Kami</a></li> 
+     <li><a href="#services">Layanan</a></li> 
+     <li><a href="#portfolio">Portofolio</a></li> 
+     <li><a href="#pricing">Harga</a></li> 
+    </ul> 
+   </nav> 
+  </header> 
+  <main class="container"> 
+   <section id="about"> 
+    <h2>Tentang Lensa Kreatif</h2> 
+    <p>Kami adalah studio profesional yang berfokus pada <strong>kualitas visual tinggi</strong>. Didirikan sejak tahun 2015, kami telah membantu lebih dari 500 klien untuk mengabadikan momen berharga mereka.</p> 
+    <p>Visi kami adalah: <em>Menjadi partner kreatif terbaik di industri digital.</em></p> 
+   </section> 
+   <section id="services"> 
+    <h2>Layanan Unggulan Kami</h2> 
+    <ul> 
+     <li>Fotografi Pernikahan (Wedding)</li> 
+     <li>Pembuatan Video Profil Perusahaan</li> 
+     <li>Editing Potret &amp; Audio Design</li> 
+     <li>Sesi Foto Produk Marketplace</li> 
+    </ul> 
+   </section> 
+   <section id="portfolio" class="gallery"> 
+    <h2>Contoh Karya Terkini</h2> 
+    <img src="https://www.dicoding.com/images/original/academy/20190523121528_Lensa-Kreatif-Landscape.png" alt="Foto Gunung"> 
+    <img src="https://via.placeholder.com/400x300" alt="Foto Produk Elektronik" title="Produk Gadget"> 
+    <h3>Showreel Video</h3> 
+    <video width="100%" controls> 
+     <source src="movie.mp4" type="video/mp4"> Browser Anda tidak mendukung tag video. 
+    </video> 
+    <h3>Audio Sample</h3> 
+    <audio controls> 
+     <source src="sample-audio.mp3" type="audio/mpeg"> Browser Anda tidak mendukung tag audio. 
+    </audio> 
+   </section> 
+   <section id="pricing"> 
+    <h2>Daftar Harga Paket</h2> 
+    <table> 
+     <thead> 
+      <tr> 
+       <th>Jenis Paket</th> 
+       <th>Durasi</th> 
+       <th>Harga</th> 
+      </tr> 
+     </thead> 
+     <tbody> 
+      <tr> 
+       <td>Personal Branding</td> 
+       <td>2 Jam</td> 
+       <td>Rp 1.500.000</td> 
+      </tr> 
+      <tr> 
+       <td>Corporate Video</td> 
+       <td>1 Hari</td> 
+       <td>Rp 7.000.000</td> 
+      </tr> 
+     </tbody> 
+     <tfoot> 
+      <tr> 
+       <td colspan="3"> <strong>Catatan:</strong> Harga belum termasuk biaya transportasi luar kota. </td> 
+      </tr> 
+     </tfoot> 
+    </table> 
+   </section> 
+  </main> 
+  <footer> 
+   <p>© 2023 Lensa Kreatif Studio. Dibuat dengan semangat kreatif.</p> 
+   <p>Hubungi kami di: <a href="mailto:info@lensakreatif.com" style="color: yellow;">info@lensakreatif.com</a></p> 
+  </footer> 
+ </body>
+</html>            margin: 0 15px;
         }
 
         nav ul li a {
